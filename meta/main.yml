@@ -1,0 +1,11 @@
+galaxy_info:
+  description: Patch to remove logging to /dev/xconsole from the default rsyslog configuration
+  author: Nicholas E. Rabenau
+  license: MIT
+  min_ansible_version: 2.2
+  platforms:
+  - name: Debian
+    versions:
+    - all
+  galaxy_tags:
+    - chip
