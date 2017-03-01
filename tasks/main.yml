@@ -1,3 +1,10 @@
+- name: Install rsyslog and prerequisites
+  apt:
+    update_cache: yes
+    name:
+      - rsyslog
+      - patch
+
 # https://anonscm.debian.org/cgit/collab-maint/rsyslog.git/commit/?id=67bc8e5326b0d3564c7e2153dede25f9690e6839
 - name: Patch rsyslog to not spam logs
   patch:
