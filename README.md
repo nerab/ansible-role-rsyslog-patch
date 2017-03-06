@@ -6,6 +6,7 @@ As described in this [commit](https://anonscm.debian.org/cgit/collab-maint/rsysl
 
 # TODO
 
+* Base Travis tests on docker as we cannot seem to be able to restart rsyslog on their machines
 * Check that the symptoms are gone:
 
   ```bash
